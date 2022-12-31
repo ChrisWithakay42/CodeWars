@@ -1,8 +1,12 @@
-import unittest
+import pytest
 from change_it_up import changer
 
 
-class TestChanger(unittest.TestCase):
+class TestChanger:
 
     def test_chars_shifted_by_one(self):
-        self.assertEqual(changer('Cat30'), 'Dbu30')
+        assert changer("Hello World!") == "ifmmp xpsme!"
+        assert changer("abcdefghijklmnopqrstuvwxyz") == "bcdefghijklmnopqrstuvwxyza"
+        assert changer("ABCDEFGHIJKLMNOPQRSTUVWXYZ") == "BCDEFGHIJKLMNOPQRSTUVWXYZA"
+        assert changer("1234567890") == "1234567890"
+        assert changer("") == ""
