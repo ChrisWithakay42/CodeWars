@@ -1,0 +1,2 @@
+from multiplication_table import multiplication_table
+
