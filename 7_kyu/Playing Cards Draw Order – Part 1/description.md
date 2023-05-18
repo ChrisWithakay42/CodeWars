@@ -45,7 +45,7 @@ should return:
 ```
 ["KC", "QC", "KD", "QD", "KH", "QH", "KS", "QS"];
 ```
-Have fun!
+### Have fun!
 I hope you will enjoy this kata! Feedbacks and translations are very welcome.
 
 After this one, jump to Part 2, where we will be ordering the deck to be drawn to have a chosen result!
