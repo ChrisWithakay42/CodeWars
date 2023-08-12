@@ -2,7 +2,7 @@ def last_man_standing(n):
     if n == 1:
         return 1
 
-        # Initialize a list of numbers from 1 to n
+    # Initialize a list of numbers from 1 to n
     numbers = list(range(1, n + 1))
     is_left = True  # Flag to determine whether to remove from the left or right
 
