@@ -1,5 +1,5 @@
-package 8_kyu
+package eightKyu
 
 func Opposite(value int) int {
-  return -value
+	return -value
 }

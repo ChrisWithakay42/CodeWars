@@ -1,5 +1,5 @@
-package 8_kyu
+package eightKyu
 
 func CheckForFactor(base int, factor int) bool {
-  return base%factor == 0
+	return base%factor == 0
 }
