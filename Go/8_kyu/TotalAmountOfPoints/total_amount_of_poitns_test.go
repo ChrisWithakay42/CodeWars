@@ -1,4 +1,4 @@
-package totalamountofpoints
+package totalamountofpointstest
 
 func TestCalculatePoints(t *testing.T) {
   tests := []struct{
@@ -7,6 +7,6 @@ func TestCalculatePoints(t *testing.T) {
     expected int
   }{
     {testName: "all wins", matches: []string{"3:1", "3:2", "2:1"}, expected: 9},
-    {testName: "all losses", matches: []string{""}}
+{testName: "all losses", matches: []string{"2:3", "1:3}}
   }
 }
